@@ -1,28 +1,28 @@
-# 🚀 Disaster Recovery & Backup System
+# Disaster Recovery & Backup System
 
-## 📄 Overview
+## Overview
 This project demonstrates a secure disaster recovery system using AWS services with global content delivery and HTTPS access.
 
-## 🏗️ Architecture
+## Architecture
 User → CloudFront → S3 (Private) → Lambda
 
-## ⚡ Technologies Used
+## Technologies Used
 - AWS Lambda
 - Amazon S3 (Private Bucket with Versioning)
 - Amazon CloudFront (CDN with HTTPS)
 - GitHub (Version Control)
 
-## 🔥 Features
+## Features
 - Automated backup creation using Lambda
 - Secure file storage in private S3 bucket
 - Global file access via CloudFront CDN
 - HTTPS enabled secure delivery
 - High availability and scalable design
 
-## 🌍 Live Demo
+## Live Demo
 [View Demo](https://d2q6kc2jtbdmc.cloudfront.net/file2.PNG)
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### CloudFront Output
 ![CloudFront Output](cloudfront-output.png)
@@ -36,5 +36,4 @@ User → CloudFront → S3 (Private) → Lambda
 ### CloudFront Distribution
 ![CloudFront Distribution](cloudfront.png)
 
-## 📁 Project Structure
-<!-- You can add your folder/file structure here -->
+## Project Structure
